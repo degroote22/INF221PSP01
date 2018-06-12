@@ -34,7 +34,7 @@ def result(filename):
     teamsData = {}
 
     # Incializa um array pra cada time guardar os resultados do seu jogo.
-    # Usando index+1 porque os times virao numerados em base 0.
+    # Usando index+1 porque os times virao numerados em base 1.
     for index in range(numberOfTeams):
         teamsData[index+1] = []
 
